@@ -56,17 +56,19 @@ Since this is an **API Gateway**, it does not have its own business logic but ro
 1. **Clone the Repository:**
 
    ```sh
-   git clone https://github.com//cloud-gateway.git
+   git clone https://github.com/raulmss/microservices-discovery-1.git
    cd cloud-gateway
 
    ```
 
 2. **Build and Run the API Gateway:**
+
    ```sh
     mvn clean install
     mvn spring-boot:run
 
    ```
+
 3. **Verify the Service Discovery:**
    1. Open Eureka Dashboard at http://localhost:8761
    2. The API Gateway should be registered as api-gateway
