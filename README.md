@@ -103,20 +103,25 @@ This project is designed to **practice microservices architecture** using **Spri
    ```
 
 4. **Start Microservices**
+
    ```sh
    cd ../ProductService
    mvn spring-boot:run
    ```
+
    ```sh
    cd ../StockService
    mvn spring-boot:run
    ```
+
    ```sh
    cd ../StockService2
    mvn spring-boot:run
    ```
-5. **Run Zipkin for Tracing**
-   after unziping the zipkin file, run the startzipkin.bat file.
+
+5. **Download and Run Zipkin for Tracing**  
+   [Download Zipkin](https://drive.google.com/file/d/1jXPF_U1D6EeL02x78Enn0tGKU5nf80rX/view?usp=sharing)  
+   After unzipping the Zipkin file, run the `startzipkin.bat` file.
 
 ## 📡 API Endpoints
 
